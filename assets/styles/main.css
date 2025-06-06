@@ -1,0 +1,53 @@
+body
+{
+    background-color: #f4f6f7;
+}
+
+#web-title
+{
+    border-bottom: 1px solid #abb2b9;
+}
+
+.web-title-text
+{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu .nav-item
+{
+    list-style-type: none;
+    display: inline-block;
+
+    margin: 1rem;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+.nav-item a:hover
+{
+    color: #d4ac0d;
+}
+
+#collaterals img
+{
+    width: 400px;
+    height: 450px;
+    margin: 1rem;
+
+    transition: all .5s ease;
+}
+
+#collaterals img:hover
+{
+    transform: scale(1.1);
+}
