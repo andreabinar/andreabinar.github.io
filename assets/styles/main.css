@@ -38,11 +38,21 @@ body
     color: #d4ac0d;
 }
 
+#collaterals
+{
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-gap: 10px;
+
+    margin: 2rem;
+
+    align-items: center;
+}
+
 #collaterals img
 {
-    width: 400px;
-    height: 450px;
-    margin: 1rem;
+    width: 250px;
+    border-radius: 1rem;
 
     transition: all .5s ease;
 }
@@ -50,4 +60,9 @@ body
 #collaterals img:hover
 {
     transform: scale(1.1);
+}
+
+#graphic-designs
+{
+    display: none;
 }
