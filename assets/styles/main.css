@@ -62,7 +62,10 @@ body
     transform: scale(1.1);
 }
 
-#graphic-designs
+#graphicdesigns div img
 {
-    display: none;
+    width: 500px;
+    height: 700px;
+
+    margin: 2rem;
 }
