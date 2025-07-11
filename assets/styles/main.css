@@ -40,26 +40,14 @@ body
 
 #collaterals
 {
-    display: grid;
-    grid-template-columns: 15% 15% 15%;
-    grid-gap: 10px;
-
-    margin: 2rem;
-
     align-items: center;
 }
 
 #collaterals img
 {
     width: 250px;
-    border-radius: 1rem;
 
-    transition: all .5s ease;
-}
-
-#collaterals img:hover
-{
-    transform: scale(1.1);
+    margin: 3rem;
 }
 
 #graphicdesigns div img
@@ -68,4 +56,20 @@ body
     height: 700px;
 
     margin: 2rem;
+}
+
+#photography #film-photography img
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+}
+
+#photography #landscapes img
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
 }
