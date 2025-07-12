@@ -90,3 +90,12 @@ body
 
     margin-bottom: 2rem;
 }
+
+#videos iframe
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+    border: none;
+}
