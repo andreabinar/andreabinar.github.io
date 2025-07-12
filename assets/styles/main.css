@@ -99,3 +99,71 @@ body
     margin-bottom: 2rem;
     border: none;
 }
+
+/*-------------------------------------------------------------------
+                MEDIA QUERIES (RESPONSIVE DESIGN)
+---------------------------------------------------------------------*/
+@media (max-width: 768px)
+{
+    #collaterals img,
+    #photography #film-photography img,
+    #photography #landscapes img,
+    #photography #portraits img,
+    #photography #others img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #graphicdesigns div img
+    {
+        width: 600px;
+        height: auto;
+    }
+
+    #videos iframe
+    {
+        width: 100%;
+        height: 450px;
+    }
+
+    .web-title
+    {
+        width: 100%;
+    }
+
+    .web-title-text
+    {
+        font-size: 16px;
+    }
+}
+
+@media (width: 425px)
+{
+    #collaterals img,
+    #photography #film-photography img,
+    #photography #landscapes img,
+    #photography #portraits img,
+    #photography #others img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #graphicdesigns div img
+    {
+        width: 300px;
+        height: auto;
+    }
+
+    #videos iframe
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .nav-menu .nav-item
+    {
+        text-align: left;
+    }
+}
