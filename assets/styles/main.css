@@ -73,3 +73,11 @@ body
 
     margin-bottom: 2rem;
 }
+
+#photography #portraits img
+{
+    width: 600px;
+    height: 800px;
+
+    margin-bottom: 2rem;
+}
